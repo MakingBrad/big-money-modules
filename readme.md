@@ -1,29 +1,35 @@
-# Module Madness
+# Big Money Modules
 
-In this challenge, you will need to spin up a new project (much like we did in lecture). You will create three modules as specified below, create a *server.js* that will use these modules!
+In this challenge, you will use Node.js modules to build a lottery game!
 
-## Modules
+## `play.js`
 
-### Module One
+Start with a `play.js` file -- this will be your main entry point for running your Node scripts! **Use this file as you go to import and test each module**, before moving on to the next.
 
-The first module will **export** a function that returns a random number after taking in a min and max value as arguments (hint: you can use random number functions from previous assignments). When you call this module, use `100` as your min, and `1000000` as your max.
+## Module 1: `randomNumber.js`
 
-### Module Two
+This first module will **export** a function that returns a random number after taking in a min and max value as arguments (hint: search google for "JS random number min max"). 
+
+## Module 2:`formatUSD.js`
 
 The second module should accept a number and convert it to a USD value as a string (eg, convert `10000` to `"$10,000"`). You can find some good implementations of this online.
+
+### Module 3: `person.js`
+
+The third module should export an object representing the person who is playing the lottery, with `firstName` and a `lastName` properties.
  
-### Module Three
+### Module 4: `lotteryTicket.js`
 
-The third module should **require** the other two modules (i.e. Module One and Module Two). It should export a new function which:
+The fourth module should **import** the functions from the other two modules, and **export** a new function which:
 
-1. Gets a random number from the first function
-2. Passes that number to the second function, to convert it to a USD string
-3. Returns the USD string
+1. Get a random number between `100` and `1000000`
+2. Pass that number to the second function, to convert it to a USD string
+3. Return the USD string
 
-## index.js
-Finally, in the `server.js` file use the functions to console log the random dollar values, as:
+## Tying it all together, in `play.js`
+
+Finally, the `play.js` file should use the other modules to print the results of the lottery ticket to the console. For example
 
 ```
-Account balance:
-$156,301
+Congratulations, Jane Doe! You just won $156,301
 ```
