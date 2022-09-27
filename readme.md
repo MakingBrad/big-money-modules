@@ -20,16 +20,18 @@ The second module should export an object representing the person who is playing
  
 ### Module 3: `lotteryTicket.js`
 
-The third module should **import** the functions from the other two modules, and **export** a new function which:
+The third module should **import** the functions from the other two modules, and **export** a new function which will:
 
 1. Get a random number between `100` and `1000000`
-2. Pass that number to the second function, to convert it to a USD string
-3. Return the USD string
+2. Get the person object from the `person.js` module
+3. Return a string like `Congratulations, Jane Doe! You just won $156301`
 
 ## Tying it all together, in `play.js`
 
-Finally, the `play.js` file should use the other modules to print the results of the lottery ticket to the console. For example
+Finally, the `play.js` file should use the `lotterTicket` modules to `console.log`. For example
 
 ```
-Congratulations, Jane Doe! You just won $156301
+$ node ./play.js
+
+> Congratulations, Jane Doe! You just won $156301
 ```
