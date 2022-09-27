@@ -31,5 +31,5 @@ The third module should **import** the functions from the other two modules, and
 Finally, the `play.js` file should use the other modules to print the results of the lottery ticket to the console. For example
 
 ```
-Congratulations, Jane Doe! You just won $156,301
+Congratulations, Jane Doe! You just won $156301
 ```
