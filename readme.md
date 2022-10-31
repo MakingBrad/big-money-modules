@@ -10,13 +10,15 @@ Start with a `play.js` file -- this will be your main entry point for running yo
 node play.js
 ```
 
-## Module 1: `randomNumber.js`
+## Modules!
 
-This first module will **export** a function that returns a random number after taking in a min and max value as arguments (hint: search google for "JS random number min max"). 
+### Module 1: `randomNumber.js`
+
+This first module will **export** a function that returns a random number after taking in a min and max value as arguments (hint: search google for "JS random number min max"). This module does not import anything.
 
 ### Module 2: `person.js`
 
-The second module should export an object representing the person who is playing the lottery, with `firstName` and a `lastName` properties.
+The second module should export an object representing the person who is playing the lottery, with `firstName` and a `lastName` properties. This module does not import anything.
  
 ### Module 3: `lotteryTicket.js`
 
