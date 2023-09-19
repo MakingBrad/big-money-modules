@@ -30,7 +30,7 @@ The third module should **import** the functions from the other two modules, and
 
 ## Tying it all together, in `play.js`
 
-Finally, the `play.js` file should use the `lotterTicket` modules to `console.log`. For example
+Finally, the `play.js` file should use the `lotteryTicket` modules to `console.log`. For example
 
 ```
 $ node ./play.js
