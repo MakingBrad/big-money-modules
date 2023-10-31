@@ -22,7 +22,7 @@ The second module should export an object representing the person who is playing
  
 ### Module 3: `lotteryTicket.js`
 
-The third module should **import** the functions from the other two modules, and **export** a new function which will:
+This third module should **import** the function from `randomNumber.js` and oject from `person.js`, then **export** a new function which will:
 
 1. Get a random number between `100` and `1000000`
 2. Get the person object from the `person.js` module
