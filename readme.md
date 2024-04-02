@@ -26,7 +26,7 @@ This third module should **import** the function from `randomNumber.js` and obje
 
 1. Get a random number between `100` and `1,000,000`.
 2. Get the person object from the `person.js` module.
-3. Return a string like `Congratulations, Jane Doe! You just won $156,301.00`.
+3. Return a string like `Congratulations, Jane Doe! You just won $156301`.
 
 ## Tying it all together, in `play.js`
 
@@ -39,5 +39,5 @@ node ./play.js
 Running the above command should generate an output that looks similar to this:
 
 ```sh
-> Congratulations, Jane Doe! You just won $156,301.00.
+> Congratulations, Jane Doe! You just won $156301.
 ```
