@@ -14,7 +14,8 @@ node play.js
 
 ### Module 1: `randomNumber.js`
 
-This first module will **export** a function that returns a random number after taking in a min and max value as arguments (hint: search google for "JS random number min max"). This module does not import anything.
+This first module will **export** a function that returns a random number after taking in a min and max value as arguments (hint: search google for 
+). This module does not import anything.
 
 ### Module 2: `person.js`
 
